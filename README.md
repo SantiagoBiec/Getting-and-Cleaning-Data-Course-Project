@@ -9,3 +9,6 @@ Then you can run the code `run_analysis.R.`
 
 It will collect the data from the folders and create a Assignment4.txt with the final table asked in the project.
 
+## Dependencies
+You need the libraries `plyr` and `reshape2`.
+
