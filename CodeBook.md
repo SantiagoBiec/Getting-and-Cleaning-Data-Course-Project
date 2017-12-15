@@ -29,7 +29,7 @@ In the `run_analysis.R` code there are not auxiliary functions.
 But it is possible disntinguish several steps.
 
 1. There is a loop in which I go thorugh the `y_xxxx.txt` and `subject_xxxx.txt` for the train and test datasets.
-Inside of it there is an extra loop to go along all the .txt's included inside of the `Inertial Signals`folder. In it I get the mean and standard deviation of the variables
+Inside of it there is an extra loop to go along all the .txt's included inside of the `Inertial Signals`folder. In it I get the mean and standard deviation of all the variables contained.
 
 1. I merged the dataset for the train and tests datasets.
 1. It is revalued the variable of the activity, in order to be readbable. In the original dataset it is coded numerically and can not be interpreted withouth checking the `activity_labels.txt`
